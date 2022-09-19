@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class InnvocationCountTest {
 
-    @Test(invocationCount = 1)
+    @Test(invocationCount = 6)
     public void addTwoNumbers()
     {
         System.out.print("Add:");
