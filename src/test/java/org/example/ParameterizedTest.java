@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class ParameterizedTest {
 
-    @Parameters("browser")
+    @Parameters("URL")
     @Test
     public void parameterTest(String browser1) {
         System.out.println("Parameterized value is : " + browser1);
